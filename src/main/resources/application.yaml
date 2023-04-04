@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-cg3m9b9mbg5fch5veac0-a.oregon-postgres.render.com/learning_sql_db_g8ls
+    username: dbuser
+    password: KofpfFXO00PThiZTaSRfKYPaTiCIvPcs
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
