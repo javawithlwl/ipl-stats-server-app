@@ -39,11 +39,15 @@ public class TeamController {
 
   @PutMapping("/{teamId}/players/add")
   public ResponseEntity<TeamDto> addPlayer(@PathVariable("teamId") String teamId,@RequestBody List<PlayerDto> players){
-    return  ResponseEntity.ok(null);
+    TeamDto teamdto = teamService.addPlayers(teamId, players);
+    return  ResponseEntity.ok(teamdto);
   }
 
   @GetMapping("/basic-details")
   public ResponseEntity<List<TeamBasicDto>> getTeamBasicDetails(){
     return ResponseEntity.ok(teamService.getTeamBasicDetails());
   }
+
+
+
 }

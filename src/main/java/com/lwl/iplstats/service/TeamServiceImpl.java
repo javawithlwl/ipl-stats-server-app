@@ -47,7 +47,6 @@ public class TeamServiceImpl implements TeamService {
     TeamDto teamDto = Convertor.toTeamDto(team);
     return teamDto;
   }
-
   @Override
   public List<TeamDto> addTeams(List<TeamDto> list) {
     List<Team> teamList = list.stream().map(Convertor::toTeam).collect(Collectors.toList());
@@ -59,7 +58,20 @@ public class TeamServiceImpl implements TeamService {
 
   @Override
   public TeamDto addPlayers(String teamId, List<PlayerDto> playersDto) {
-    return null;
+    List<Player> playerList = playersDto.stream().map(Convertor::toPlayer).collect(Collectors.toList());
+    UUID tId = UUID.fromString(teamId);
+    Team team = teamRepo.findById(tId).orElseThrow(
+            ()->new IllegalArgumentException("Team details are not found")
+    );
+    for (Player player:playerList){
+      team.addPlayer(player);
+      team=teamRepo.save(team);
+    }
+    log.info("{} tplayers are added to team with id {}",playerList.size(), teamId);
+    Team teamdto = teamRepo.getReferenceById(tId);
+    TeamDto teamDto = Convertor.toTeamDto(teamdto);
+    return teamDto;
+
   }
 
   @Override
