@@ -1,7 +1,7 @@
 package com.lwl.iplstats.repo;
 
 import com.lwl.iplstats.domain.Team;
-import com.lwl.iplstats.dto.PlayerDto;
+import com.lwl.iplstats.dto.TeamRoleStatsDto;
 import com.lwl.iplstats.dto.TeamStatDto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -15,4 +15,6 @@ public interface IplStatsRepo extends JpaRepository<Team, UUID> {
     public List<TeamStatDto> selectTeamStats();
 
 
+    @Query("select new com.lwl.iplstats.dto.TeamRoleStatsDto(role,sum(amount)) as totalAmount from Player p join p.team t where t.id=:id group by role")
+    public List<TeamRoleStatsDto> selectTeamRoleStats(UUID id);
 }

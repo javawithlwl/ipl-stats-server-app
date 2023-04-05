@@ -5,7 +5,6 @@ import com.lwl.iplstats.dto.TeamBasicDto;
 import com.lwl.iplstats.dto.TeamDto;
 
 import java.util.List;
-import java.util.UUID;
 
 public interface TeamService {
 
