@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Sanju Samson",
+    "role": "WK-Batsman",
+    "amount": 140000000,
+    "country": "India"
+  },
+  {
+    "name": "Jos Buttler",
+    "role": "WK-Batsman",
+    "amount": 100000000,
+    "country": "England"
+  },
+  {
+    "name": "Prasidh Krishna",
+    "role": "Bowler",
+    "amount": 100000000,
+    "country": "India"
+  },
+  {
+    "name": "Shimron Hetmyer",
+    "role": "Batsman",
+    "amount": 85000000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Trent Boult",
+    "role": "Bowler",
+    "amount": 80000000,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Devdutt Padikkal",
+    "role": "Batsman",
+    "amount": 77500000,
+    "country": "India"
+  },
+  {
+    "name": "Yuzvendra Chahal",
+    "role": "Bowler",
+    "amount": 65000000,
+    "country": "India"
+  },
+  {
+    "name": "Jason Holder",
+    "role": "All-rounder",
+    "amount": 57500000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Ravichandran Ashwin",
+    "role": "All-rounder",
+    "amount": 50000000,
+    "country": "India"
+  },
+  {
+    "name": "Yashasvi Jaiswal",
+    "role": "Batsman",
+    "amount": 40000000,
+    "country": "India"
+  },
+  {
+    "name": "Riyan Parag",
+    "role": "All-rounder",
+    "amount": 38000000,
+    "country": "India"
+  },
+  {
+    "name": "Navdeep Saini",
+    "role": "Bowler",
+    "amount": 26000000,
+    "country": "India"
+  },
+  {
+    "name": "Adam Zampa",
+    "role": "Bowler",
+    "amount": 15000000,
+    "country": "Australia"
+  },
+  {
+    "name": "Joe Root",
+    "role": "Batsman",
+    "amount": 10000000,
+    "country": "England"
+  },
+  {
+    "name": "Obed McCoy",
+    "role": "Bowler",
+    "amount": 7500000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Donovan Ferreira",
+    "role": "WK-Batsman",
+    "amount": 5000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "KC Kariappa",
+    "role": "Bowler",
+    "amount": 3000000,
+    "country": "India"
+  },
+  {
+    "name": "KM Asif",
+    "role": "Bowler",
+    "amount": 3000000,
+    "country": "India"
+  },
+  {
+    "name": "Dhruv Jurel",
+    "role": "WK-Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Kuldip Yadav",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Kuldeep Sen",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Kunal Rathore",
+    "role": "WK-Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Murugan Ashwin",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Akash Vashisht",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Abdul P A",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  }
+]

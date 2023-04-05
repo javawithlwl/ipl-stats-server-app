@@ -31,6 +31,7 @@ public class Team extends  BaseEntity {
         player.setTeam(this);
         this.players.add(player);
     }
+
     public void removePlayer(Player player){
         player.setTeam(null);
         this.players.remove(player);

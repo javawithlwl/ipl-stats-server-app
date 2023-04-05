@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Sam Curran",
+    "role": "All-rounder",
+    "amount": 185000000,
+    "country": "England"
+  },
+  {
+    "name": "Liam Livingstone",
+    "role": "All-rounder",
+    "amount": 115000000,
+    "country": "England"
+  },
+  {
+    "name": "Kagiso Rabada",
+    "role": "Bowler",
+    "amount": 92500000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Shahrukh Khan",
+    "role": "Batsman",
+    "amount": 90000000,
+    "country": "India"
+  },
+  {
+    "name": "Shikhar Dhawan",
+    "role": "Batsman",
+    "amount": 82500000,
+    "country": "India"
+  },
+  {
+    "name": "Jonny Bairstow",
+    "role": "WK-Batsman",
+    "amount": 67500000,
+    "country": "England"
+  },
+  {
+    "name": "Rahul Chahar",
+    "role": "Bowler",
+    "amount": 52500000,
+    "country": "India"
+  },
+  {
+    "name": "Arshdeep Singh",
+    "role": "Bowler",
+    "amount": 40000000,
+    "country": "India"
+  },
+  {
+    "name": "Harpreet Brar",
+    "role": "Bowler",
+    "amount": 38000000,
+    "country": "India"
+  },
+  {
+    "name": "Raj Bawa",
+    "role": "Bowler",
+    "amount": 20000000,
+    "country": "India"
+  },
+  {
+    "name": "Nathan Ellis",
+    "role": "Bowler",
+    "amount": 7500000,
+    "country": "Australia"
+  },
+  {
+    "name": "Prabhsimran Singh",
+    "role": "WK-Batsman",
+    "amount": 6000000,
+    "country": "India"
+  },
+  {
+    "name": "Rishi Dhawan",
+    "role": "All-rounder",
+    "amount": 5500000,
+    "country": "India"
+  },
+  {
+    "name": "Bhanuka Rajapaksa",
+    "role": "Batsman",
+    "amount": 5000000,
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "Sikandar Raza",
+    "role": "All-rounder",
+    "amount": 5000000,
+    "country": "Zimbabwe"
+  },
+  {
+    "name": "Harpreet Bhatia",
+    "role": "Batsman",
+    "amount": 4000000,
+    "country": "India"
+  },
+  {
+    "name": "Jitesh Sharma",
+    "role": "WK-Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Baltej Singh",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Atharva Taide",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Vidwath Kaverappa",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Mohit Rathee",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Shivam Singh",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  }
+]

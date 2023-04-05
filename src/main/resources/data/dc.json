@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Rishabh Pant",
+    "role": "WK-Batsman",
+    "amount": 160000000,
+    "country": "India"
+  },
+  {
+    "name": "Axar Patel",
+    "role": "All-rounder",
+    "amount": 90000000,
+    "country": "India"
+  },
+  {
+    "name": "Prithvi Shaw",
+    "role": "Batsman",
+    "amount": 75000000,
+    "country": "India"
+  },
+  {
+    "name": "Anrich Nortje",
+    "role": "Bowler",
+    "amount": 65000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Mitchell Marsh",
+    "role": "All-rounder",
+    "amount": 65000000,
+    "country": "Australia"
+  },
+  {
+    "name": "David Warner",
+    "role": "Batsman",
+    "amount": 62500000,
+    "country": "Australia"
+  },
+  {
+    "name": "Mukesh Kumar",
+    "role": "Bowler",
+    "amount": 55000000,
+    "country": "India"
+  },
+  {
+    "name": "Khaleel Ahmed",
+    "role": "Bowler",
+    "amount": 52500000,
+    "country": "India"
+  },
+  {
+    "name": "Rilee Rossouw",
+    "role": "Batsman",
+    "amount": 46000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Chetan Sakariya",
+    "role": "Bowler",
+    "amount": 42000000,
+    "country": "India"
+  },
+  {
+    "name": "Rovman Powell",
+    "role": "Batsman",
+    "amount": 28000000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Manish Pandey",
+    "role": "Batsman",
+    "amount": 24000000,
+    "country": "India"
+  },
+  {
+    "name": "Mustafizur Rahman",
+    "role": "Bowler",
+    "amount": 20000000,
+    "country": "Bangladesh"
+  },
+  {
+    "name": "Kuldeep Yadav",
+    "role": "Bowler",
+    "amount": 20000000,
+    "country": "India"
+  },
+  {
+    "name": "Phil Salt",
+    "role": "WK-Batsman",
+    "amount": 20000000,
+    "country": "England"
+  },
+  {
+    "name": "Kamlesh Nagarkoti",
+    "role": "Bowler",
+    "amount": 11000000,
+    "country": "India"
+  },
+  {
+    "name": "Lalit Yadav",
+    "role": "All-rounder",
+    "amount": 6500000,
+    "country": "India"
+  },
+  {
+    "name": "Yash Dhull",
+    "role": "Batsman",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Lungi Ngidi",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Praveen Dubey",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Ishant Sharma",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Sarfaraz Khan",
+    "role": "Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Ripal Patel",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Vicky Ostwal",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Aman Khan",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  }
+]

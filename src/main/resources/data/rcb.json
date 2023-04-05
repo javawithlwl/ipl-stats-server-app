@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Virat Kohli",
+    "role": "Batsman",
+    "amount": 150000000,
+    "country": "India"
+  },
+  {
+    "name": "Glenn Maxwell",
+    "role": "All-rounder",
+    "amount": 110000000,
+    "country": "Australia"
+  },
+  {
+    "name": "Harshal Patel",
+    "role": "Bowler",
+    "amount": 107500000,
+    "country": "India"
+  },
+  {
+    "name": "Wanindu Hasaranga",
+    "role": "All-rounder",
+    "amount": 107500000,
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "Josh Hazlewood",
+    "role": "Bowler",
+    "amount": 77500000,
+    "country": "Australia"
+  },
+  {
+    "name": "Faf du Plessis",
+    "role": "Batsman",
+    "amount": 70000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Mohammed Siraj",
+    "role": "Bowler",
+    "amount": 70000000,
+    "country": "India"
+  },
+  {
+    "name": "Dinesh Karthik",
+    "role": "WK-Batsman",
+    "amount": 55000000,
+    "country": "India"
+  },
+  {
+    "name": "Anuj Rawat",
+    "role": "WK-Batsman",
+    "amount": 34000000,
+    "country": "India"
+  },
+  {
+    "name": "Will Jacks",
+    "role": "All-rounder",
+    "amount": 32000000,
+    "country": "England"
+  },
+  {
+    "name": "Shahbaz Ahmed",
+    "role": "All-rounder",
+    "amount": 24000000,
+    "country": "India"
+  },
+  {
+    "name": "David Willey",
+    "role": "All-rounder",
+    "amount": 20000000,
+    "country": "England"
+  },
+  {
+    "name": "Reece Topley",
+    "role": "Bowler",
+    "amount": 19000000,
+    "country": "England"
+  },
+  {
+    "name": "Mahipal Lomror",
+    "role": "All-rounder",
+    "amount": 9500000,
+    "country": "India"
+  },
+  {
+    "name": "Finn Allen",
+    "role": "WK-Batsman",
+    "amount": 8000000,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Siddarth Kaul",
+    "role": "Bowler",
+    "amount": 7500000,
+    "country": "India"
+  },
+  {
+    "name": "Rajan Kumar",
+    "role": "Bowler",
+    "amount": 7000000,
+    "country": "India"
+  },
+  {
+    "name": "Avinash Singh",
+    "role": "Bowler",
+    "amount": 6000000,
+    "country": "India"
+  },
+  {
+    "name": "Karn Sharma",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Suyash Prabhudessai",
+    "role": "Batsman",
+    "amount": 3000000,
+    "country": "India"
+  },
+  {
+    "name": "Rajat Patidar",
+    "role": "Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Akash Deep",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Himanshu Sharma",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Manoj Bhandage",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "R Sonu Yadav",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  }
+]

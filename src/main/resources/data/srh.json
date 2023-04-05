@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Harry Brook",
+    "role": "Batsman",
+    "amount": 132500000,
+    "country": "England"
+  },
+  {
+    "name": "Washington Sundar",
+    "role": "All-rounder",
+    "amount": 87500000,
+    "country": "India"
+  },
+  {
+    "name": "Rahul Tripathi",
+    "role": "Batsman",
+    "amount": 85000000,
+    "country": "India"
+  },
+  {
+    "name": "Mayank Agarwal",
+    "role": "Batsman",
+    "amount": 82500000,
+    "country": "India"
+  },
+  {
+    "name": "Abhishek Sharma",
+    "role": "All-rounder",
+    "amount": 65000000,
+    "country": "India"
+  },
+  {
+    "name": "Heich Klaasen",
+    "role": "WK-Batsman",
+    "amount": 52000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Bhuvneshwar Kumar",
+    "role": "Bowler",
+    "amount": 42000000,
+    "country": "India"
+  },
+  {
+    "name": "Marco Jansen",
+    "role": "All-rounder",
+    "amount": 42000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Umran Malik",
+    "role": "Bowler",
+    "amount": 40000000,
+    "country": "India"
+  },
+  {
+    "name": "Kartik Tyagi",
+    "role": "Bowler",
+    "amount": 40000000,
+    "country": "India"
+  },
+  {
+    "name": "T Natarajan",
+    "role": "Bowler",
+    "amount": 40000000,
+    "country": "India"
+  },
+  {
+    "name": "Abdul Samad",
+    "role": "All-rounder",
+    "amount": 40000000,
+    "country": "India"
+  },
+  {
+    "name": "Aiden Markram",
+    "role": "Batsman",
+    "amount": 26000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Vivrant Sharma",
+    "role": "All-rounder",
+    "amount": 26000000,
+    "country": "India"
+  },
+  {
+    "name": "Adil Rashid",
+    "role": "Bowler",
+    "amount": 20000000,
+    "country": "England"
+  },
+  {
+    "name": "Mayank Dagar",
+    "role": "All-rounder",
+    "amount": 18000000,
+    "country": "India"
+  },
+  {
+    "name": "Glenn Phillips",
+    "role": "WK-Batsman",
+    "amount": 15000000,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Akeal Hosein",
+    "role": "Bowler",
+    "amount": 10000000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Fazal Haq Farooqi",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "Afghanistan"
+  },
+  {
+    "name": "Mayank Markande",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Upendra Yadav",
+    "role": "WK-Batsman",
+    "amount": 2500000,
+    "country": "India"
+  },
+  {
+    "name": "Samarth Vyas",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Sanvir Singh",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Nitish Kumar Reddy",
+    "role": "WK-Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Anmolpreet Singh",
+    "role": "Batsman",
+    "amount": 2000000,
+    "country": "India"
+  }
+]

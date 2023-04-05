@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Shreyas Iyer",
+    "role": "Batsman",
+    "amount": 122500000,
+    "country": "India"
+  },
+  {
+    "name": "Andre Russell",
+    "role": "All-rounder",
+    "amount": 120000000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Shardul Thakur",
+    "role": "Bowler",
+    "amount": 107500000,
+    "country": "India"
+  },
+  {
+    "name": "Lockie Ferguson",
+    "role": "Bowler",
+    "amount": 100000000,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Nitish Rana",
+    "role": "Batsman",
+    "amount": 80000000,
+    "country": "India"
+  },
+  {
+    "name": "Varun Chakravarty",
+    "role": "Bowler",
+    "amount": 80000000,
+    "country": "India"
+  },
+  {
+    "name": "Venkatesh Iyer",
+    "role": "All-rounder",
+    "amount": 80000000,
+    "country": "India"
+  },
+  {
+    "name": "Sunil Narine",
+    "role": "All-rounder",
+    "amount": 60000000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Umesh Yadav",
+    "role": "Bowler",
+    "amount": 20000000,
+    "country": "India"
+  },
+  {
+    "name": "Tim Southee",
+    "role": "Bowler",
+    "amount": 15000000,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Shakib Al Hasan",
+    "role": "All-rounder",
+    "amount": 15000000,
+    "country": "Bangladesh"
+  },
+  {
+    "name": "David Wiese",
+    "role": "All-rounder",
+    "amount": 10000000,
+    "country": "Namibia"
+  },
+  {
+    "name": "N. Jagadeesan",
+    "role": "WK-Batsman",
+    "amount": 9000000,
+    "country": "India"
+  },
+  {
+    "name": "Vaibhav Arora",
+    "role": "Bowler",
+    "amount": 6000000,
+    "country": "India"
+  },
+  {
+    "name": "Rinku Singh",
+    "role": "Batsman",
+    "amount": 5500000,
+    "country": "India"
+  },
+  {
+    "name": "Rahmanullah Gurbaz",
+    "role": "WK-Batsman",
+    "amount": 5000000,
+    "country": "Afghanistan"
+  },
+  {
+    "name": "Litton Das",
+    "role": "WK-Batsman",
+    "amount": 5000000,
+    "country": "Bangladesh"
+  },
+  {
+    "name": "Mandeep Singh",
+    "role": "Batsman",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Anukul Roy",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Harshit Rana",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Suyash Sharma",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Kulwant Khejroliya",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  }
+]

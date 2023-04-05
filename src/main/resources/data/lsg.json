@@ -1,0 +1,146 @@
+[
+  {
+    "name": "KL Rahul",
+    "role": "WK-Batsman",
+    "amount": 170000000,
+    "country": "India"
+  },
+  {
+    "name": "Nicholas Pooran",
+    "role": "WK-Batsman",
+    "amount": 160000000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Avesh Khan",
+    "role": "Bowler",
+    "amount": 100000000,
+    "country": "India"
+  },
+  {
+    "name": "Marcus Stoinis",
+    "role": "All-rounder",
+    "amount": 92000000,
+    "country": "Australia"
+  },
+  {
+    "name": "Krunal Pandya",
+    "role": "All-rounder",
+    "amount": 82500000,
+    "country": "India"
+  },
+  {
+    "name": "Quinton de Kock",
+    "role": "WK-Batsman",
+    "amount": 67500000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Deepak Hooda",
+    "role": "All-rounder",
+    "amount": 57500000,
+    "country": "India"
+  },
+  {
+    "name": "Ravi Bishnoi",
+    "role": "Bowler",
+    "amount": 40000000,
+    "country": "India"
+  },
+  {
+    "name": "K Gowtham",
+    "role": "All-rounder",
+    "amount": 9000000,
+    "country": "India"
+  },
+  {
+    "name": "Daniel Sams",
+    "role": "All-rounder",
+    "amount": 7500000,
+    "country": "Australia"
+  },
+  {
+    "name": "Kyle Mayers",
+    "role": "All-rounder",
+    "amount": 5000000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Jaydev Unadkat",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Romario Shepherd",
+    "role": "All-rounder",
+    "amount": 5000000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Amit Mishra",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Naveen-ul-Haq",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "Afghanistan"
+  },
+  {
+    "name": "Yash Thakur",
+    "role": "Bowler",
+    "amount": 4500000,
+    "country": "India"
+  },
+  {
+    "name": "Manan Vohra",
+    "role": "Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Mohsin Khan",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Mayank Yadav",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Karan Sharma",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Ayush Badoni",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Prerak Mankad",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Swapnil Singh",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Yudhvir Charak",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  }
+]

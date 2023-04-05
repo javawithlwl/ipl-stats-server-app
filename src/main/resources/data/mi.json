@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Cameron Green",
+    "role": "All-rounder",
+    "amount": 185000000,
+    "country": "Australia"
+  },
+  {
+    "name": "Rohit Sharma",
+    "role": "Batsman",
+    "amount": 160000000,
+    "country": "India"
+  },
+  {
+    "name": "Ishan Kishan",
+    "role": "WK-Batsman",
+    "amount": 152500000,
+    "country": "India"
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "role": "Bowler",
+    "amount": 120000000,
+    "country": "India"
+  },
+  {
+    "name": "Tim David",
+    "role": "All-rounder",
+    "amount": 82500000,
+    "country": "Singapore"
+  },
+  {
+    "name": "Suryakumar Yadav",
+    "role": "Batsman",
+    "amount": 80000000,
+    "country": "India"
+  },
+  {
+    "name": "Jofra Archer",
+    "role": "Bowler",
+    "amount": 80000000,
+    "country": "England"
+  },
+  {
+    "name": "Dewald Brevis",
+    "role": "Batsman",
+    "amount": 30000000,
+    "country": "India"
+  },
+  {
+    "name": "Tilak Varma",
+    "role": "Batsman",
+    "amount": 17000000,
+    "country": "India"
+  },
+  {
+    "name": "Jhye Richardson",
+    "role": "Bowler",
+    "amount": 15000000,
+    "country": "Australia"
+  },
+  {
+    "name": "Piyush Chawla",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Arjun Tendulkar",
+    "role": "All-rounder",
+    "amount": 3000000,
+    "country": "India"
+  },
+  {
+    "name": "Ramandeep Singh",
+    "role": "Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Kumar Kartikeya Singh",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Hrithik Shokeen",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Tristan Stubbs",
+    "role": "WK-Batsman",
+    "amount": 2000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Arshad Khan",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Akash Madhwal",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Jason Behrendorff",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "Australia"
+  },
+  {
+    "name": "Duan Jansen",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "Shams Mulani",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Nehal Wadhera",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Vishnu Vinod",
+    "role": "WK-Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Raghav Goyal",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  }
+]
