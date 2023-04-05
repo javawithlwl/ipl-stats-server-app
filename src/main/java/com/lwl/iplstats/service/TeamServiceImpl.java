@@ -58,7 +58,6 @@ public class TeamServiceImpl implements TeamService {
 
   @Override
   public TeamDto addPlayers(String teamId, List<PlayerDto> playersDto) {
-
     UUID tId = UUID.fromString(teamId);
     Team team = teamRepo.findById(tId).orElseThrow(
             ()->new IllegalArgumentException("Team details are not found")
@@ -70,7 +69,6 @@ public class TeamServiceImpl implements TeamService {
     Team teamdto = teamRepo.getReferenceById(tId);
     TeamDto teamDto = Convertor.toTeamDto(teamdto);
     return teamDto;
-
   }
 
   @Override

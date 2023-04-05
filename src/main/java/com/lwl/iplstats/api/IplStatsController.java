@@ -1,6 +1,7 @@
 package com.lwl.iplstats.api;
 
 import com.lwl.iplstats.dto.PlayerDto;
+import com.lwl.iplstats.dto.TeamStatDto;
 import com.lwl.iplstats.service.IplStatsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -11,14 +12,15 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/iplStats")
+@RequestMapping("/api/stats")
 @RequiredArgsConstructor
 public class IplStatsController {
 
     private final IplStatsService iplStatsService;
+
     @GetMapping("/team-stats")
-    ResponseEntity<List<PlayerDto>> getTeamStats(){
-        List<PlayerDto> playerDto = iplStatsService.getTeamStats();
-        return ResponseEntity.ok(playerDto);
+    ResponseEntity<List<TeamStatDto>> getTeamStats(){
+        List<TeamStatDto> teamStatDtos = iplStatsService.getTeamStats();
+        return ResponseEntity.ok(teamStatDtos);
     }
 }
