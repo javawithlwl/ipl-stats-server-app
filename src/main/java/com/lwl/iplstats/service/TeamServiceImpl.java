@@ -10,9 +10,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
-import java.util.Map;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
@@ -42,9 +40,8 @@ public class TeamServiceImpl implements TeamService {
         ()->new IllegalArgumentException("Team details are not found")
     );
     Player player = playerRepo.findById(pId).orElseThrow(()->new IllegalArgumentException("Player details are not found"));
-    team.getPlayers().add(player);
+    team.addPlayer(player);
     team=teamRepo.save(team);
-    player.setTeam(team);
     TeamDto teamDto = Convertor.toTeamDto(team);
     return teamDto;
   }
