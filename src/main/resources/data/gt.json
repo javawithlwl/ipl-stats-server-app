@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Rashid Khan",
+    "role": "Bowler",
+    "amount": 150000000,
+    "country": "Afghanistan"
+  },
+  {
+    "name": "Hardik Pandya",
+    "role": "All-rounder",
+    "amount": 150000000,
+    "country": "India"
+  },
+  {
+    "name": "Rahul Tewatia",
+    "role": "All-rounder",
+    "amount": 90000000,
+    "country": "India"
+  },
+  {
+    "name": "Shubman Gill",
+    "role": "Batsman",
+    "amount": 80000000,
+    "country": "India"
+  },
+  {
+    "name": "Mohammed Shami",
+    "role": "Bowler",
+    "amount": 62500000,
+    "country": "India"
+  },
+  {
+    "name": "Shivam Mavi",
+    "role": "Bowler",
+    "amount": 60000000,
+    "country": "India"
+  },
+  {
+    "name": "Joshua Little",
+    "role": "Bowler",
+    "amount": 44000000,
+    "country": "Ireland"
+  },
+  {
+    "name": "Yash Dayal",
+    "role": "Bowler",
+    "amount": 32000000,
+    "country": "India"
+  },
+  {
+    "name": "David Miller",
+    "role": "Batsman",
+    "amount": 30000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "R Sai Kishore",
+    "role": "Bowler",
+    "amount": 30000000,
+    "country": "India"
+  },
+  {
+    "name": "Abhinav Sadarangani",
+    "role": "Batsman",
+    "amount": 26000000,
+    "country": "India"
+  },
+  {
+    "name": "Matthew Wade",
+    "role": "WK-Batsman",
+    "amount": 24000000,
+    "country": "Australia"
+  },
+  {
+    "name": "Alzarri Joseph",
+    "role": "Bowler",
+    "amount": 24000000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Kane Williamson",
+    "role": "Batsman",
+    "amount": 20000000,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Wriddhiman Saha",
+    "role": "WK-Batsman",
+    "amount": 19000000,
+    "country": "India"
+  },
+  {
+    "name": "Jayant Yadav",
+    "role": "All-rounder",
+    "amount": 17000000,
+    "country": "India"
+  },
+  {
+    "name": "Vijay Shankar",
+    "role": "All-rounder",
+    "amount": 14000000,
+    "country": "India"
+  },
+  {
+    "name": "KS Bharat",
+    "role": "WK-Batsman",
+    "amount": 12000000,
+    "country": "India"
+  },
+  {
+    "name": "Odean Smith",
+    "role": "All-rounder",
+    "amount": 5000000,
+    "country": "West Indies"
+  },
+  {
+    "name": "Mohit Sharma",
+    "role": "Bowler",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Noor Ahmad",
+    "role": "Bowler",
+    "amount": 3000000,
+    "country": "Afghanistan"
+  },
+  {
+    "name": "Sai Sudarshan",
+    "role": "Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Darshan Nalkande",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Pradeep Sangwan",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Urvil Patel",
+    "role": "WK-Batsman",
+    "amount": 2000000,
+    "country": "India"
+  }
+]

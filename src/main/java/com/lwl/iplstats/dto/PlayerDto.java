@@ -1,5 +1,6 @@
 package com.lwl.iplstats.dto;
 
+import com.lwl.iplstats.domain.Team;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,4 +18,5 @@ public class PlayerDto {
   private String role;
   private String country;
   private double amount;
+  private Team team;
 }

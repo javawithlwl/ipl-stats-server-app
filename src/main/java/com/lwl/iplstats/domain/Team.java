@@ -4,9 +4,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 
 @Entity
 @Table(name = "team_details")
@@ -19,9 +17,10 @@ public class Team extends  BaseEntity {
     @Column(name = "label",unique = true)
     private String label;
     private String captain;
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "team_id")
-    private List<Player> players = new ArrayList<>();
+
+    @OneToMany(mappedBy ="team",cascade = CascadeType.ALL)
+    private Set<Player> players = new HashSet<>();
+
     @PrePersist
     public void onPersist(){
         this.id = UUID.randomUUID();

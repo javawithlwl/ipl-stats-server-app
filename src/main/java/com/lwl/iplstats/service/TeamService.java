@@ -2,7 +2,13 @@ package com.lwl.iplstats.service;
 
 import com.lwl.iplstats.dto.TeamDto;
 
+import java.util.List;
+import java.util.UUID;
+
 public interface TeamService {
 
       TeamDto addTeam(TeamDto teamDto);
+      TeamDto addPlayer(String teamId,String playerId);
+
+      List<TeamDto> addTeams(List<TeamDto> list);
 }

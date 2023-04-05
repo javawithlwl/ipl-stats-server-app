@@ -6,4 +6,9 @@ spring:
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
+server:
+  port: 8090
+  servlet:
+    context-path: /iplstats
+
