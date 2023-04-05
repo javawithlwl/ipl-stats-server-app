@@ -35,4 +35,14 @@ public class Team extends  BaseEntity {
         player.setTeam(null);
         this.players.remove(player);
     }
+    public void addPlayers(List<Player> players){
+        for(Player player:players){
+            this.addPlayer(player);
+        }
+    }
+    public void removePlayers(List<Player> players){
+        for(Player player:players){
+            this.removePlayer(player);
+        }
+    }
 }
