@@ -18,7 +18,7 @@ public class Team extends  BaseEntity {
     private String label;
     private String captain;
 
-    @OneToMany(mappedBy ="team",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy ="team",cascade = CascadeType.ALL,fetch = FetchType.LAZY)
     private Set<Player> players = new HashSet<>();
 
     @PrePersist

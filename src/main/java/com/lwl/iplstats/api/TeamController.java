@@ -44,6 +44,6 @@ public class TeamController {
 
   @GetMapping("/basic-details")
   public ResponseEntity<List<TeamBasicDto>> getTeamBasicDetails(){
-    return null;
+    return ResponseEntity.ok(teamService.getTeamBasicDetails());
   }
 }

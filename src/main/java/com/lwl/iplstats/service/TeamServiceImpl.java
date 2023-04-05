@@ -3,6 +3,7 @@ package com.lwl.iplstats.service;
 import com.lwl.iplstats.domain.Player;
 import com.lwl.iplstats.domain.Team;
 import com.lwl.iplstats.dto.PlayerDto;
+import com.lwl.iplstats.dto.TeamBasicDto;
 import com.lwl.iplstats.dto.TeamDto;
 import com.lwl.iplstats.repo.PlayerRepo;
 import com.lwl.iplstats.repo.TeamRepo;
@@ -59,5 +60,20 @@ public class TeamServiceImpl implements TeamService {
   @Override
   public TeamDto addPlayers(String teamId, List<PlayerDto> playersDto) {
     return null;
+  }
+
+  @Override
+  public List<TeamBasicDto> getTeamBasicDetails() {
+    List<Team> teams = teamRepo.findAll();
+    List<TeamBasicDto> teamBasicDtos = teams.stream().map(ele -> {
+      TeamBasicDto obj =
+          TeamBasicDto.builder()
+              .id(ele.getId())
+              .name(ele.getName())
+              .label(ele.getLabel())
+              .captain(ele.getCaptain()).build();
+      return obj;
+    }).collect(Collectors.toList());
+    return teamBasicDtos;
   }
 }
