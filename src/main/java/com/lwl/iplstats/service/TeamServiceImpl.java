@@ -58,16 +58,15 @@ public class TeamServiceImpl implements TeamService {
 
   @Override
   public TeamDto addPlayers(String teamId, List<PlayerDto> playersDto) {
-    List<Player> playerList = playersDto.stream().map(Convertor::toPlayer).collect(Collectors.toList());
+
     UUID tId = UUID.fromString(teamId);
     Team team = teamRepo.findById(tId).orElseThrow(
             ()->new IllegalArgumentException("Team details are not found")
     );
-    for (Player player:playerList){
-      team.addPlayer(player);
-      team=teamRepo.save(team);
-    }
-    log.info("{} tplayers are added to team with id {}",playerList.size(), teamId);
+    List<Player> playerList = playersDto.stream().map(Convertor::toPlayer).collect(Collectors.toList());
+    team.addPlayers(playerList);
+    team = teamRepo.save(team);
+    log.info("{} players are added to team with id {}",playerList.size(), team.getId());
     Team teamdto = teamRepo.getReferenceById(tId);
     TeamDto teamDto = Convertor.toTeamDto(teamdto);
     return teamDto;

@@ -23,7 +23,5 @@ public class TeamDto {
   private String name;
   private String label;
   private String captain;
-  private List<Player> players = new ArrayList<>();
-
-
+  private List<PlayerDto> players = new ArrayList<>();
  }

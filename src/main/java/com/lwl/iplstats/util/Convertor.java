@@ -5,6 +5,8 @@ import com.lwl.iplstats.domain.Team;
 import com.lwl.iplstats.dto.PlayerDto;
 import com.lwl.iplstats.dto.TeamDto;
 
+import java.util.stream.Collectors;
+
 public class Convertor {
   public static Team toTeam(TeamDto teamDto){
     Team team = new Team();
@@ -12,7 +14,7 @@ public class Convertor {
     team.setId(teamDto.getId());
     team.setLabel(teamDto.getLabel());
     team.setCaptain(teamDto.getCaptain());
-    team.getPlayers().addAll(teamDto.getPlayers());
+    team.getPlayers().addAll(teamDto.getPlayers().stream().map(e->toPlayer(e)).collect(Collectors.toSet()));
     return team;
   }
   public static TeamDto toTeamDto(Team team){
@@ -21,7 +23,7 @@ public class Convertor {
     teamDto.setId(team.getId());
     teamDto.setLabel(team.getLabel());
     teamDto.setCaptain(team.getCaptain());
-    teamDto.getPlayers().addAll(team.getPlayers());
+    teamDto.getPlayers().addAll(team.getPlayers().stream().map(e->toPlayerDto(e)).collect(Collectors.toSet()));
     return teamDto;
   }
 
