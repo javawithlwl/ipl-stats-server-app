@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Ben Stokes",
+    "role": "All-rounder",
+    "amount": 162500000,
+    "country": "England"
+  },
+  {
+    "name": "Ravindra Jadeja",
+    "role": "All-rounder",
+    "amount": 160000000,
+    "country": "India"
+  },
+  {
+    "name": "Deepak Chahar",
+    "role": "Bowler",
+    "amount": 140000000,
+    "country": "India"
+  },
+  {
+    "name": "MS Dhoni",
+    "role": "WK-Batsman",
+    "amount": 120000000,
+    "country": "India"
+  },
+  {
+    "name": "Moeen Ali",
+    "role": "All-rounder",
+    "amount": 80000000,
+    "country": "England"
+  },
+  {
+    "name": "Ambati Rayudu",
+    "role": "WK-Batsman",
+    "amount": 67500000,
+    "country": "India"
+  },
+  {
+    "name": "Ruturaj Gaikwad",
+    "role": "Batsman",
+    "amount": 60000000,
+    "country": "India"
+  },
+  {
+    "name": "Shivam Dube",
+    "role": "All-rounder",
+    "amount": 40000000,
+    "country": "India"
+  },
+  {
+    "name": "Mitchell Santner",
+    "role": "Bowler",
+    "amount": 19000000,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Rajvardhan Hangargekar",
+    "role": "Bowler",
+    "amount": 15000000,
+    "country": "India"
+  },
+  {
+    "name": "Prashant Solanki",
+    "role": "Bowler",
+    "amount": 12000000,
+    "country": "India"
+  },
+  {
+    "name": "Devon Conway",
+    "role": "Batsman",
+    "amount": 10000000,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Kyle Jamieson",
+    "role": "Bowler",
+    "amount": 10000000,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Maheesh Theekshana",
+    "role": "Bowler",
+    "amount": 7000000,
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "Dwaine Pretorius",
+    "role": "All-rounder",
+    "amount": 5000000,
+    "country": "South Africa"
+  },
+  {
+    "name": "A Rahane",
+    "role": "Batsman",
+    "amount": 5000000,
+    "country": "India"
+  },
+  {
+    "name": "Subhranshu Senapati",
+    "role": "Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Tushar Deshpande",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Simranjeet Singh",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Matheesha Pathirana",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "Mukesh Choudhary",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Nishant Sindhu",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Shaik Rasheed",
+    "role": "Batsman",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Ajay Mandal",
+    "role": "Bowler",
+    "amount": 2000000,
+    "country": "India"
+  },
+  {
+    "name": "Bhagath Verma",
+    "role": "All-rounder",
+    "amount": 2000000,
+    "country": "India"
+  }
+]

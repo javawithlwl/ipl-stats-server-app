@@ -1,6 +1,7 @@
 package com.lwl.iplstats.api;
 
 import com.lwl.iplstats.dto.PlayerDto;
+import com.lwl.iplstats.dto.TeamBasicDto;
 import com.lwl.iplstats.dto.TeamDto;
 import com.lwl.iplstats.repo.TeamRepo;
 import com.lwl.iplstats.service.TeamService;
@@ -39,5 +40,10 @@ public class TeamController {
   @PutMapping("/{teamId}/players/add")
   public ResponseEntity<TeamDto> addPlayer(@PathVariable("teamId") String teamId,@RequestBody List<PlayerDto> players){
     return  ResponseEntity.ok(null);
+  }
+
+  @GetMapping("/basic-details")
+  public ResponseEntity<List<TeamBasicDto>> getTeamBasicDetails(){
+    return null;
   }
 }
