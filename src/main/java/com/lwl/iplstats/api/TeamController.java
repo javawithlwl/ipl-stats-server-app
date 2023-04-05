@@ -36,4 +36,8 @@ public class TeamController {
     return  ResponseEntity.ok(teamService.addPlayer(teamId,playerId));
   }
 
+  @PutMapping("/{teamId}/players/add")
+  public ResponseEntity<TeamDto> addPlayer(@PathVariable("teamId") String teamId,@RequestBody List<PlayerDto> players){
+    return  ResponseEntity.ok(null);
+  }
 }
