@@ -11,15 +11,16 @@ import org.springframework.stereotype.Service;
 @Service
 @RequiredArgsConstructor
 @Slf4j
-public class PlayerServiceImpl implements  PlayerService{
+public class PlayerServiceImpl implements PlayerService {
 
-  private final PlayerRepo playerRepo;
-  @Override
-  public PlayerDto addPlayer(PlayerDto playerDto) {
-    Player player = Convertor.toPlayer(playerDto);
-    player = playerRepo.save(player);
-    log.info("Player is created with id :{}",player.getId());
-    playerDto = Convertor.toPlayerDto(player);
-    return playerDto;
-  }
+    private final PlayerRepo playerRepo;
+
+    @Override
+    public PlayerDto addPlayer(PlayerDto playerDto) {
+        Player player = Convertor.toPlayer(playerDto);
+        player = playerRepo.save(player);
+        log.info("Player is created with id :{}", player.getId());
+        playerDto = Convertor.toPlayerDto(player);
+        return playerDto;
+    }
 }

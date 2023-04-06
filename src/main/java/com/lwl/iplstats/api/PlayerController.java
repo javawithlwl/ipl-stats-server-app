@@ -14,12 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class PlayerController {
 
-  private final PlayerService playerService;
-  @PostMapping
-  public ResponseEntity<PlayerDto> addTeam(@RequestBody PlayerDto playerDto) {
-    PlayerDto newPlayer = playerService.addPlayer(playerDto);
-    return  ResponseEntity.ok(newPlayer);
-  }
+    private final PlayerService playerService;
+
+    @PostMapping
+    public ResponseEntity<PlayerDto> addTeam(@RequestBody PlayerDto playerDto) {
+        PlayerDto newPlayer = playerService.addPlayer(playerDto);
+        return ResponseEntity.ok(newPlayer);
+    }
 
 
 }

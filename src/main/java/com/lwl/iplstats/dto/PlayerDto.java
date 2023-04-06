@@ -14,11 +14,11 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PlayerDto {
-  private UUID id;
-  private String name;
-  private String role;
-  private String country;
-  private double amount;
-  @JsonIgnore
-  private Team team;
+    private UUID id;
+    private String name;
+    private String role;
+    private String country;
+    private double amount;
+    @JsonIgnore
+    private Team team;
 }

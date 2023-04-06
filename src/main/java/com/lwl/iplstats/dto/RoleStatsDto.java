@@ -4,17 +4,16 @@ import lombok.*;
 
 @Getter
 @Setter
-@Builder
 @NoArgsConstructor
 @ToString
-public class TeamRoleStatsDto {
+@Builder
+public class RoleStatsDto {
+
     private String role;
     private double totalAmount;
-    private String label;
 
-    public TeamRoleStatsDto(String role, double totalAmount, String label) {
+    public RoleStatsDto(String role, double totalAmount) {
         this.role = role;
         this.totalAmount = totalAmount;
-        this.label = label;
     }
 }

@@ -1,4 +1,5 @@
 package com.lwl.iplstats.api;
+
 import com.lwl.iplstats.dto.PlayerDto;
 import com.lwl.iplstats.dto.TeamBasicDto;
 import com.lwl.iplstats.dto.TeamDto;
@@ -15,39 +16,41 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TeamController {
 
-  private final TeamService teamService;
+    private final TeamService teamService;
 
-  @PostMapping
-  public ResponseEntity<TeamDto> addTeam(@RequestBody TeamDto teamDto) {
-    TeamDto newTeam = teamService.addTeam(teamDto);
-    return ResponseEntity.ok(newTeam);
-  }
-  @PostMapping("/add-all")
-  public ResponseEntity<List<TeamDto>> addTeams(@RequestBody List<TeamDto> list) {
-    List<TeamDto> newTeams = teamService.addTeams(list);
-    return ResponseEntity.ok(newTeams);
-  }
+    @PostMapping
+    public ResponseEntity<TeamDto> addTeam(@RequestBody TeamDto teamDto) {
+        TeamDto newTeam = teamService.addTeam(teamDto);
+        return ResponseEntity.ok(newTeam);
+    }
 
-  @PutMapping("/{teamId}/player/{playerId}")
-  public ResponseEntity<TeamDto> addPlayer(@PathVariable("teamId")String teamId,
-                                           @PathVariable("playerId") String playerId){
-    return  ResponseEntity.ok(teamService.addPlayer(teamId,playerId));
-  }
+    @PostMapping("/add-all")
+    public ResponseEntity<List<TeamDto>> addTeams(@RequestBody List<TeamDto> list) {
+        List<TeamDto> newTeams = teamService.addTeams(list);
+        return ResponseEntity.ok(newTeams);
+    }
 
-  @PutMapping("/{teamId}/players/add-all")
-  public ResponseEntity<TeamDto> addPlayer(@PathVariable("teamId") String teamId,@RequestBody List<PlayerDto> players){
-    TeamDto teamdto = teamService.addPlayers(teamId, players);
-    return  ResponseEntity.ok(teamdto);
-  }
+    @PutMapping("/{teamId}/player/{playerId}")
+    public ResponseEntity<TeamDto> addPlayer(@PathVariable("teamId") String teamId,
+                                             @PathVariable("playerId") String playerId) {
+        return ResponseEntity.ok(teamService.addPlayer(teamId, playerId));
+    }
 
-  @GetMapping("/basic-details")
-  public ResponseEntity<List<TeamBasicDto>> getTeamBasicDetails(){
-    return ResponseEntity.ok(teamService.getTeamBasicDetails());
-  }
-  @PostMapping("/upload")
-  public ResponseEntity<String> uploadTeamWithPlayer(@RequestParam("file") MultipartFile file){
-    String message = teamService.uploadFile(file);
-    return ResponseEntity.ok(message);
-  }
+    @PutMapping("/{teamId}/players/add-all")
+    public ResponseEntity<TeamDto> addPlayer(@PathVariable("teamId") String teamId, @RequestBody List<PlayerDto> players) {
+        TeamDto teamdto = teamService.addPlayers(teamId, players);
+        return ResponseEntity.ok(teamdto);
+    }
+
+    @GetMapping("/basic-details")
+    public ResponseEntity<List<TeamBasicDto>> getTeamBasicDetails() {
+        return ResponseEntity.ok(teamService.getTeamBasicDetails());
+    }
+
+    @PostMapping("/upload")
+    public ResponseEntity<String> uploadTeamWithPlayer(@RequestParam("file") MultipartFile file) {
+        String message = teamService.uploadFile(file);
+        return ResponseEntity.ok(message);
+    }
 
 }
