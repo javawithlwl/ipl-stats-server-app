@@ -53,4 +53,10 @@ public class TeamController {
         return ResponseEntity.ok(message);
     }
 
+    @GetMapping("/download")
+    public ResponseEntity<String> downloadTeanDto() {
+        String message = teamService.downloadData();
+        return ResponseEntity.ok(message);
+    }
+
 }

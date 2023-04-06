@@ -20,4 +20,5 @@ public interface TeamService {
     List<TeamBasicDto> getTeamBasicDetails();
 
     String uploadFile(MultipartFile file);
+    String downloadData();
 }
