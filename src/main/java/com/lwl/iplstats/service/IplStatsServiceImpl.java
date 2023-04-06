@@ -20,7 +20,7 @@ public class IplStatsServiceImpl implements IplStatsService{
     }
 
     @Override
-    public List<TeamRoleStatsDto> selectTeamRoleStats(UUID id) {
+    public List<TeamRoleStatsDto> getTeamRoleStats(UUID id) {
         return iplStatsRepo.selectTeamRoleStats(id);
     }
 }

@@ -1,5 +1,6 @@
 package com.lwl.iplstats.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.lwl.iplstats.domain.Team;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,5 +19,6 @@ public class PlayerDto {
   private String role;
   private String country;
   private double amount;
+  @JsonIgnore
   private Team team;
 }

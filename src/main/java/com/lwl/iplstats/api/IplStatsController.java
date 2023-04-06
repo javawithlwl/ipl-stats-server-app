@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/stats")
+@RequestMapping("/api/v1/stats")
 @RequiredArgsConstructor
 public class IplStatsController {
 
@@ -29,7 +29,7 @@ public class IplStatsController {
 
     @GetMapping("/team-role-stats/{id}")
     ResponseEntity<List<TeamRoleStatsDto>> getTeamRoleStats(@PathVariable("id") UUID id){
-        List<TeamRoleStatsDto> teamRoleStatsDtos = iplStatsService.selectTeamRoleStats(id);
+        List<TeamRoleStatsDto> teamRoleStatsDtos = iplStatsService.getTeamRoleStats(id);
         return ResponseEntity.ok(teamRoleStatsDtos);
     }
 }

@@ -8,5 +8,5 @@ public interface IplStatsService {
 
     List<TeamStatDto> getTeamStats();
 
-    public List<TeamRoleStatsDto> selectTeamRoleStats(UUID id);
+    List<TeamRoleStatsDto> getTeamRoleStats(UUID id);
 }
