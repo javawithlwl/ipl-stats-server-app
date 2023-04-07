@@ -21,6 +21,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 
@@ -137,6 +138,15 @@ public class TeamServiceImpl implements TeamService {
             throw new RuntimeException(e);
         }
         return "Team date uploaded to json file named : iplStats1.json";
+    }
+
+    @Override
+    public List<PlayerDto> getPlayers(UUID teamId) {
+        Optional<Team> optTeam = teamRepo.findById(teamId);
+        Team team = optTeam.orElseThrow(()->new IllegalArgumentException("Team details are not found"));
+        List<PlayerDto> players = team.getPlayers().stream().map(ele->Convertor.toPlayerDto(ele)).toList();
+        log.info("Team {} has {} players",team.getName(),players.size());
+        return players;
     }
 
 

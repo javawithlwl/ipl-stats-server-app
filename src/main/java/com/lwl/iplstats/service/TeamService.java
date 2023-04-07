@@ -6,6 +6,7 @@ import com.lwl.iplstats.dto.TeamDto;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
+import java.util.UUID;
 
 public interface TeamService {
 
@@ -21,4 +22,6 @@ public interface TeamService {
 
     String uploadFile(MultipartFile file);
     String downloadData();
+
+    List<PlayerDto> getPlayers(UUID teamId);
 }
