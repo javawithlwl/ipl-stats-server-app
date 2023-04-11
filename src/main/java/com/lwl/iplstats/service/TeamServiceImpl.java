@@ -30,6 +30,7 @@ import java.util.concurrent.CompletableFuture;
 @Slf4j
 public class TeamServiceImpl implements TeamService {
 
+    public static final String TEAM_DETAILS_ARE_NOT_FOUND = "Team details are not found";
     private final TeamRepo teamRepo;
     private final PlayerRepo playerRepo;
 
@@ -48,7 +49,7 @@ public class TeamServiceImpl implements TeamService {
         UUID tId = UUID.fromString(teamId);
         UUID pId = UUID.fromString(playerId);
         Team team = teamRepo.findById(tId).orElseThrow(
-                () -> new IllegalArgumentException("Team details are not found")
+                () -> new IllegalArgumentException(TEAM_DETAILS_ARE_NOT_FOUND)
         );
         Player player = playerRepo.findById(pId).orElseThrow(() -> new IllegalArgumentException("Player details are not found"));
         team.addPlayer(player);
@@ -68,7 +69,7 @@ public class TeamServiceImpl implements TeamService {
     public TeamDto addPlayers(String teamId, List<PlayerDto> playersDto) {
         UUID tId = UUID.fromString(teamId);
         Team team = teamRepo.findById(tId).orElseThrow(
-                () -> new IllegalArgumentException("Team details are not found")
+                () -> new IllegalArgumentException(TEAM_DETAILS_ARE_NOT_FOUND)
         );
         List<Player> playerList = playersDto.stream().map(Convertor::toPlayer).toList();
         team.addPlayers(playerList);
@@ -143,7 +144,7 @@ public class TeamServiceImpl implements TeamService {
     @Override
     public List<PlayerDto> getPlayers(UUID teamId) {
         Optional<Team> optTeam = teamRepo.findById(teamId);
-        Team team = optTeam.orElseThrow(()->new IllegalArgumentException("Team details are not found"));
+        Team team = optTeam.orElseThrow(()->new IllegalArgumentException(TEAM_DETAILS_ARE_NOT_FOUND));
         List<PlayerDto> players = team.getPlayers().stream().map(ele->Convertor.toPlayerDto(ele)).toList();
         log.info("Team {} has {} players",team.getName(),players.size());
         return players;

@@ -16,9 +16,9 @@ public class AppSecurityConfiguration {
   @Bean
   public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
     http.cors();
+    http.csrf().disable();
     return http
-        .csrf(csrf -> csrf.disable())
-        .authorizeHttpRequests(auth -> {
+          .authorizeHttpRequests(auth -> {
           auth.requestMatchers("/api/auth/**").permitAll();
           auth.anyRequest().authenticated();
         })
