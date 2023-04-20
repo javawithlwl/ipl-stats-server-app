@@ -23,8 +23,7 @@ import lombok.RequiredArgsConstructor;
     private final JwtUtil jwtUtil;
     @PostMapping("/login")  
     public ResponseEntity<LoginResponse> login(@RequestBody LoginRequest loginRequest){
-      System.out.println("Login user "+loginRequest);
-       authenticationManager.authenticate(  
+       authenticationManager.authenticate(
          new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword())  
        );  
      UserDetails userDetails = userDetailsService.loadUserByUsername(loginRequest.getUsername());  
