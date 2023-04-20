@@ -43,4 +43,9 @@ public class IplStatsServiceImpl implements IplStatsService {
     public List<PlayerTeamRoleStats> getPlayerTeamCountryStats(UUID id, String country) {
         return iplStatsRepo.selectPlayerTeamCountryStats(id, country);
     }
+
+    @Override
+    public List<TeamBasicDto> getTeambyTeam(UUID id) {
+        return iplStatsRepo.selectTeambyTeam(id);
+    }
 }

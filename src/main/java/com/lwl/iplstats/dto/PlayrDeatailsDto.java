@@ -1,7 +1,5 @@
 package com.lwl.iplstats.dto;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.lwl.iplstats.domain.Team;
 import lombok.*;
 
 import java.util.UUID;
@@ -12,21 +10,21 @@ import java.util.UUID;
 @ToString
 @Getter
 @Setter
-public class PlayerDto {
+public class PlayrDeatailsDto {
+
     private UUID id;
     private String name;
     private String role;
     private String country;
     private double amount;
-    @JsonIgnore
-    private Team team;
+    private String label;
 
-    public PlayerDto(UUID id, String name, String role, String country, double amount, Team team) {
+    public PlayrDeatailsDto(UUID id, String name, String role, String country, double amount, String label) {
         this.id = id;
         this.name = name;
         this.role = role;
         this.country = country;
         this.amount = amount;
-        this.team = team;
+        this.label = label;
     }
 }

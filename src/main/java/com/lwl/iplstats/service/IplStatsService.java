@@ -1,6 +1,7 @@
 package com.lwl.iplstats.service;
 
 import com.lwl.iplstats.dto.*;
+import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 import java.util.UUID;
@@ -18,5 +19,6 @@ public interface IplStatsService {
     List<PlayerTeamRoleStats> getPlayerTeamRoleStats(UUID id, String role);
 
     List<PlayerTeamRoleStats> getPlayerTeamCountryStats(UUID id, String country);
+    List<TeamBasicDto> getTeambyTeam(@Param("id") UUID id);
 
 }

@@ -17,4 +17,8 @@ public class TeamRoleStatsDto {
         this.totalAmount = totalAmount;
         this.label = label;
     }
+
+    public TeamRoleStatsDto(String role) {
+        this.role = role;
+    }
 }
